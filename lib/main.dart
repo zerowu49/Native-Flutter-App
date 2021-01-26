@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Text('Battery Level: $_batteryLevel'),
+            Text('Battery: $_batteryLevel'),
             OutlineButton.icon(
               icon: Icon(Icons.refresh),
               onPressed: _getBatteryLevel,
